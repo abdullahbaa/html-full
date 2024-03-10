@@ -6,7 +6,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    line-height: 1.%;
+    line-height: 1.5em;
     background-color: blueviolet;
 }
 img{
@@ -16,7 +16,7 @@ header{
     background-color: #fadadd;
     padding: 20px;
 }
-header,img{
+header img{
     width: 250px;
     margin: 0 auto;
     display: block;
@@ -33,6 +33,7 @@ header,img{
 #main-menu a{
     background-color: #eb336d;
     color: white;
+    font-size: 14px;
     padding: 5px 15px;
     text-decoration: none;
 }
@@ -45,7 +46,7 @@ div{
     padding: 20px;
     width: 60%;
 }
-div,h1{
+div h1{
     margin-bottom: 20px;
 }
 aside{
@@ -62,5 +63,5 @@ footer{
     text-align: center;
 }
 footer p{
-    font-size: 20px;
+    font-size: 12px;
 }
